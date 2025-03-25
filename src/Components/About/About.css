@@ -1,0 +1,99 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.AboutTitle{
+    position: relative;
+
+}
+.AboutTitle h1{
+    padding: 0;
+    font-size: 80px;
+    font-weight: 600;
+}
+.AboutTitle img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.AboutSection{
+    display: flex;
+    gap: 80px;
+
+}
+.Aboutright{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.AboutPara{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+.AboutSkills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.AboutSkill {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 20px; 
+    
+}
+.AboutSkill p {
+    min-width: 150px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.AboutSkill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+}
+.AboutAcievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.AboutAchievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+}
+.AboutAchievement h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.AboutAchievement p{
+    font-size: 21px;
+    font-weight: 500;
+}
+.AboutSkill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.AboutAchievement:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
